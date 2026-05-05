@@ -1,19 +1,24 @@
 # acs-skills
 
-Auto-generated mirror of [`Grkmyldz148/acs`](https://github.com/Grkmyldz148/acs)'s
-`skills/` folder. Each subfolder is one Claude skill ready to install.
+A Claude Code plugin bundling skills for **Audio Cascading Style Sheets**
+(ACS). Auto-generated mirror of [`Grkmyldz148/acs`](https://github.com/Grkmyldz148/acs)'s
+`skills/` folder.
 
-## Skills
+## Bundled skills
 
-- `acs-soundscape` — see [`acs-soundscape/SKILL.md`](acs-soundscape/SKILL.md)
-- `create-acs-sound` — see [`create-acs-sound/SKILL.md`](create-acs-sound/SKILL.md)
+- `acs-soundscape` — see [`skills/acs-soundscape/SKILL.md`](skills/acs-soundscape/SKILL.md)
+- `create-acs-sound` — see [`skills/create-acs-sound/SKILL.md`](skills/create-acs-sound/SKILL.md)
 
 
-## Install
+## Install (Claude Code plugin — recommended)
 
-```bash
-npx skills add Grkmyldz148/acs-skills/<skill-name>
 ```
+/plugin marketplace add Grkmyldz148/acs-skills
+/plugin install acs-skills@acs-skills
+```
+
+Both skills become available immediately. New skills added in the
+source repo land here on the next sync.
 
 ## Updating
 
@@ -24,4 +29,4 @@ overwritten on the next mirror sync. Open PRs against the source repo
 
 ---
 
-Last sync: `404cc61`
+Last sync: `64b7529`
